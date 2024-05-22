@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>05.21</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./country-icon.svg" type="image/x-icon" />
+    <!-- SCRIPTS -->
+    <script type="module" src="./utils.js"></script>
+    <script type="module" src="./script.js"></script>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./sass/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <!-- input -->
+        <div class="search">
+          <label for="search">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search for?"
+            />
+          </label>
+        </div>
+
+        <div class="container"></div>
+        <div class="pagination">
+          <button id="prev">Previous</button>
+          <span id="page-info"></span>
+          <button id="next">Next</button>
+        </div>
+
+        <div class="spinner" id="spinner"></div>
+      </section>
+    </main>
+  </body>
+</html>
